@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/uikit-rtl.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+		<title>Blood</title>
+	</head>
+	<body>
+
+		<nav id="nav" class="uk-navbar-container" uk-navbar>
+	    <div class="uk-navbar-right">
+				<a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#mobile-nav" uk-toggle></a>
+				<a class="uk-navbar-item uk-logo" href="index.html">LOGO</a>
+        <ul class="uk-navbar-nav uk-visible@m">
+          <li class="ar-font"><a href="index.html">الرئسية</a></li>
+					<li class="ar-font"><a href="about.html">معلومات عن فوائد التبرع ونواهى التبرع</a></li>
+					<li class="ar-font"><a href="search.html">بحث عن متبرعين</a></li>
+					<li class="ar-font"><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+	    </div>
+		</nav>
+
+		<section id="login">
+			<div class="uk-container-large uk-container">
+				<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match" uk-grid>
+					<div class="mx-auto">
+						<div class="uk-card uk-card-secondary uk-text-center uk-margin">
+							<div class="uk-card-body">
+								<h1>SIGN IN</h1>
+								<div>
+									<form id="login-form" dir="ltr" class="uk-text-center" method="POST">
+										<div class="uk-margin">
+											<div class="uk-inline">
+												<span class="uk-form-icon" uk-icon="icon: user"></span>
+												<input class="uk-input" name="username" type="text" placeholder="username">
+											</div>
+										</div>
+										<div class="uk-margin">
+											<div class="uk-inline">
+												<span class="uk-form-icon" uk-icon="icon: lock"></span>
+												<input class="uk-input" name="password" type="password" placeholder="password">
+											</div>
+										</div>
+										<button type="submit" name="login" form="login-form" class="uk-button uk-button-danger btn-block">LOGIN</button>
+									</form>
+									<a href="add.html" class="uk-text-center uk-link-text ar-font mt-3 d-block">لا أملك حساب</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div id="lowerbar" class="uk-text-center d-flex align-items-center" dir="ltr">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p class="m-0 uk-text-muted">Copyright © 2019 <a class="uk-text-light" href="https://monkey.com">Monkey</a> Inc. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="mobile-nav" uk-offcanvas="mode: reveal; overlay: true" class="text-left">
+			<div class="uk-offcanvas-bar">
+				<ul class="uk-nav uk-nav-default">
+					<li class="ar-font"><a href="index.html">الرئسية</a></li>
+					<li class="ar-font"><a href="about.html">معلومات عن فوائد التبرع ونواهى التبرع</a></li>
+					<li class="ar-font"><a href="search.html">بحث عن متبرعين</a></li>
+					<li class="ar-font"><a href="contact.html">اتصل بنا</a></li>
+					<li class="uk-active ar-font"><a href="login.html">تسجيل دخول</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

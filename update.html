@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/uikit-rtl.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+		<title>Blood</title>
+	</head>
+	<body>
+
+		<nav id="nav" class="uk-navbar-container" uk-navbar>
+	    <div class="uk-navbar-right">
+				<a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#mobile-nav" uk-toggle></a>
+				<a class="uk-navbar-item uk-logo" href="index.html">LOGO</a>
+        <ul class="uk-navbar-nav uk-visible@m">
+          <li class="ar-font"><a class="uk-text-light" href="index.html">الرئسية</a></li>
+					<li class="ar-font"><a href="about.html">معلومات عن فوائد التبرع ونواهى التبرع</a></li>
+					<li class="ar-font"><a href="search.html">بحث عن متبرعين</a></li>
+					<li class="ar-font"><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+	    </div>
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav uk-visible@m">
+					<li class="uk-background-secondary ar-font"><a href="update.html">أحمد هاشم</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="update">
+			<div class="uk-container-large uk-container">
+				<h2 class="mb-5 uk-heading-bullet main-header ar-font">تحديث البيانات</h2>
+				<div class="uk-child-width-1-1@s uk-grid-match" uk-grid>
+					<div>
+						<div class="uk-card uk-card-default uk-margin">
+							<div class="uk-card-body">
+								<div class="body-inner">
+									<h3 class="uk-card-title ar-font">تحديث البيانات الشخصية</h3>
+									<form class="mt-4">
+										<div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+											<div class="d-flex justify-content-center">
+												<div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">الإسم</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: user"></span>
+															<input value="احمد هاشم" class="uk-input ar-font uk-form-width-large" name="name" type="text">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">البريد الإلكتروني</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: mail"></span>
+															<input value="ahmad@test.com" class="uk-input uk-form-width-large" name="email" type="email">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">رقم الهاتف</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: receiver"></span>
+															<input value="01011091472" name="phone" class="uk-input ar-font uk-form-width-large" type="text">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">إسم المستخدم</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: pencil"></span>
+															<input value="hashim41" name="username" class="uk-input ar-font uk-form-width-large" type="text">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">كلمة المرور</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: lock"></span>
+															<input value="hashim3434" name="password" class="uk-input ar-font uk-form-width-large" type="password">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<div class="mb-2 uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: calendar"></span>
+															<input value="01/03/2018" class="uk-input ar-font uk-form-width-medium" type="date">
+														</div>
+														<div class="mb-2" uk-form-custom="target: > * > span:first-child">
+															<select>
+																<option class="ar-font" value="">النوع</option>
+																<option class="ar-font" value="1">ذكر</option>
+																<option class="ar-font" value="2">أنثي</option>
+															</select>
+															<button class="uk-button uk-button-default" type="button" tabindex="-1">
+																<span></span>
+																<span uk-icon="icon: chevron-down"></span>
+															</button>
+														</div>
+														<div class="mb-2" uk-form-custom="target: > * > span:first-child">
+															<select dir="ltr">
+																<option class="ar-font" value="">الفصيلة</option>
+																<option value="0">عام</option>
+																<option value="1">A+</option>
+																<option value="2">A-</option>
+																<option value="3">B+</option>
+																<option value="4">B-</option>
+																<option value="5">AB+</option>
+																<option value="6">AB-</option>
+																<option value="7">O+</option>
+																<option value="8">O-</option>
+															</select>
+															<button class="uk-button uk-button-default" type="button" tabindex="-1">
+																<span></span>
+																<span uk-icon="icon: chevron-down"></span>
+															</button>
+														</div><br>
+														<div class="mb-2" uk-form-custom="target: > * > span:first-child">
+															<select>
+																<option class="ar-font" value="">المحافظة</option>
+																<option class="ar-font" value="1">الدقهلية</option>
+																<option class="ar-font" value="2">القاهرة</option>
+															</select>
+															<button class="uk-button uk-button-default" type="button" tabindex="-1">
+																<span></span>
+																<span uk-icon="icon: chevron-down"></span>
+															</button>
+														</div>
+														<div class="mb-2" uk-form-custom="target: > * > span:first-child">
+															<select>
+																<option class="ar-font" value="">المدينة</option>
+																<option class="ar-font" value="1">المنصورة</option>
+															</select>
+															<button class="uk-button uk-button-default" type="button" tabindex="-1">
+																<span></span>
+																<span uk-icon="icon: chevron-down"></span>
+															</button>
+														</div>
+														<div class="mb-2" uk-form-custom="target: > * > span:first-child">
+															<select>
+																<option class="ar-font" value="">القرية</option>
+																<option class="ar-font" value="1">أبو قردان</option>
+															</select>
+															<button class="uk-button uk-button-default" type="button" tabindex="-1">
+																<span></span>
+																<span uk-icon="icon: chevron-down"></span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="d-flex justify-content-center">
+												<div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">أخر تبرع</label><br>
+														<div class="mb-2 uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: calendar"></span>
+															<input value="01/03/2018" class="uk-input ar-font uk-form-width-medium" type="date">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">سبب التبرع</label><br>
+														<div class="uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: receiver"></span>
+															<input value="عن طريق الموقع" name="phone" class="uk-input ar-font uk-form-width-large" type="text">
+														</div>
+													</div>
+													<div class="uk-margin">
+														<label class="uk-form-label uk-heading-bullet ar-font" for="form-stacked-text">إيقاف التبرع لفترة</label><br>
+														<span class="ar-font">من</span>
+														<div class="mb-2 uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: calendar"></span>
+															<input value="01/03/2018" class="uk-input ar-font uk-form-width-medium" type="date">
+														</div>
+														<span class="ar-font">إلي</span>
+														<div class="mb-2 uk-inline">
+															<span class="uk-form-icon" uk-icon="icon: calendar"></span>
+															<input value="01/03/2018" class="uk-input ar-font uk-form-width-medium" type="date">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<span class="uk-animation-toggle" tabindex="0">
+											<button type="submit" style="max-width:100%" class="uk-button uk-form-width-large uk-align-center uk-button-danger ar-font uk-animation-shake">تحديث</button>
+										</span>
+									</form>
+									<button class="uk-button ar-font uk-button-secondary uk-align-center" type="button" uk-toggle="target: #leaving-modal">إنهاء التبرع</button>
+									<!-- search modal -->
+									<div id="leaving-modal" uk-modal>
+									    <div class="uk-modal-dialog uk-modal-body">
+									        <h4 class="uk-modal-title ar-font">سبب إنهاء التبرع</h4>
+													<!-- reason -->
+													<div class="uk-inline">
+														<span class="uk-form-icon" uk-icon="icon: pencil"></span>
+														<input name="why_leaving" class="uk-input ar-font uk-form-width-large" type="text">
+													</div>
+													<!-- reason -->
+									        <p class="uk-text-left">
+								            <button class="uk-button ar-font uk-button-default uk-modal-close" type="button">إلغاء</button>
+								            <button class="uk-button ar-font uk-button-danger uk-modal-close" type="button">تم</button>
+									        </p>
+									    </div>
+									</div>
+									<!-- search modal -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="uk-background-secondary py-5 uk-light">
+			<div class="uk-container-large uk-container">
+				<div class="uk-grid-medium uk-child-width-expand@l" uk-grid>
+					<div>
+						<h4 class="ar-font mb-3">عدد المتبرعين</h4>
+						<hr class="uk-divider-small">
+						<ul class="uk-list pr-0 ar-font">
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">A+</div>
+									<div class="col-6">45</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">A-</div>
+									<div class="col-6">135</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">B+</div>
+									<div class="col-6">76</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">B-</div>
+									<div class="col-6">109</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">AB+</div>
+									<div class="col-6">13</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">AB-</div>
+									<div class="col-6">24</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">O+</div>
+									<div class="col-6">64</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6" dir="ltr">O-</div>
+									<div class="col-6">18</div>
+								</div>
+							</li>
+							<hr class="uk-divider-small">
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">الإجمالي</div>
+									<div class="col-6">1037</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="ar-font mb-3">عدد الزوار</h4>
+						<hr class="uk-divider-small">
+						<ul class="uk-list pr-0 ar-font">
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">اليوم</div>
+									<div class="col-6">45</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">أمس</div>
+									<div class="col-6">135</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">الأسبوع</div>
+									<div class="col-6">76</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">الأسبوع الماضي</div>
+									<div class="col-6">109</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">الشهر</div>
+									<div class="col-6">13</div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">الشهر الماضي</div>
+									<div class="col-6">24</div>
+								</div>
+							</li>
+							<hr class="uk-divider-small">
+							<li class="mb-2">
+								<div class="row">
+									<div class="col-6 ar-font">كل الأيام</div>
+									<div class="col-6">1037</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="ar-font mb-3"><a href="contact.html">إتصل بنا</a></h4>
+						<hr class="uk-divider-small">
+						<ul class="uk-list pr-0 ar-font">
+							<li class="mb-2"><a href="https://www.facebook.com/wasletkheercom-307926359639013/"><i style="font-size:1.4rem" class="uk-text-primary fab fa-facebook"></i></a></li>
+							<li class="mb-2">01012296248</li>
+							<li class="mb-2">wasletjkeer5@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="lowerbar" class="uk-text-center d-flex align-items-center" dir="ltr">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p class="m-0 uk-text-muted">Copyright © 2019 <a class="uk-text-light" href="https://monkey.com">Monkey</a> Inc. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="mobile-nav" uk-offcanvas="mode: reveal; overlay: true" class="text-left">
+			<div class="uk-offcanvas-bar">
+				<ul class="uk-nav uk-nav-default">
+					<li class="ar-font"><a href="index.html">الرئسية</a></li>
+					<li class="ar-font"><a href="about.html">معلومات عن فوائد التبرع ونواهى التبرع</a></li>
+					<li class="ar-font"><a href="search.html">بحث عن متبرعين</a></li>
+					<li class="ar-font"><a href="contact.html">اتصل بنا</a></li>
+					<li class="uk-active ar-font"><a href="update.html">أحمد هاشم</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
